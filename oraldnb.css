@@ -1,0 +1,317 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #daebeb;
+}
+.navbar {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar ul li {
+  flex: 1;
+  text-align: center;
+}
+.navbar ul li a {
+  display: block;
+  background-color: #FFF261;
+  border: 2px solid #FF7F50;
+  color: #6D071A;
+  text-decoration: none;
+  padding: 25px 0;
+  font-size: 20px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+.navbar ul li a:hover {
+  color: #7b4c92;
+  text-decoration: underline;
+}
+.img1 {
+  width: 45px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top:5px;
+}
+h1 {
+  color: #400305;
+  font-size: 60px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-bottom: 10px;
+  margin-top: 5px
+}
+h2 {
+  color: #400305;
+  font-size: 30px;
+  font-family: Lucida Handwriting, cursive;
+}
+.section-pagedaccueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.haut {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 90%;
+  margin-bottom: -75px;
+  margin-top: 5px;
+}
+.img2 {
+  width: 325px;
+  height: auto;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.haut2 h2 {
+  margin: 5px 0;
+  color: #400305;
+  font-size: 30px;
+}
+.milieu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  margin-top: -200px;
+}
+.haut2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+.img4 {
+  width: 350px;
+  height: auto;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-top: -40px;
+}
+.img5 {
+  width: 350px;
+  height: auto;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+.img14 {
+  width: 400px;
+  height: auto;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: 825px;
+  margin-top: -180px;
+  margin-bottom: -125px;
+}
+.etencrypto {
+	margin-left: 410px;
+	margin-top: -315px;
+}
+.bloc-img h2 {
+  margin-top: 10px;
+  color: #400305;
+  font-size: 22px;
+}
+.problématique {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -170px;
+  margin-left: 760px;
+}
+.problématique h2{
+  font-size: 21px !important;
+}
+h3{
+  color: #400305;
+  font-size: 20px;
+  font-family: Lucida Handwriting, cursive;	
+}
+.psy {
+  margin-left: 115px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;;
+}
+.maths{
+  margin-left: 510px;
+  margin-top: -295px;
+  display: flex;
+  flex-direction: column;
+}
+.famille{
+  margin-left: 900px;
+  margin-top: -295px;
+  display: flex;
+  flex-direction: column;
+}
+.maitredeconference{
+  margin-left: 375px;
+  margin-top: -0px;
+  display: flex;
+  flex-direction: column;
+}
+.crypto{
+  margin-left: 775px;
+  margin-top: -295px;
+  display: flex;
+  flex-direction: column;
+}
+.img8 {
+  width: 270px;
+  height: 220px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: 30px;  
+}
+.img6 {
+  width: 270px;
+  height: 220px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: 30px;  
+}
+.img9 {
+  width: 270px;
+  height: 220px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: 12px;
+}
+.img7 {
+  width: 270px;
+  height: 220px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: -3px;
+}
+.img10 {
+  width: 275px;
+  height: 225px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-left: -30px;
+}
+h4 {
+  color: #400305;
+  font-size: 45px;
+  font-family: Lucida Handwriting, cursive;		
+}
+.img11 {
+  width: 100px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-: px; 	
+}
+.img12 {
+  width: 100px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-: px; 		
+}
+.img13 {
+  width: 100px;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+  margin-: px; 		
+}
+h5 {
+  color: #400305;
+  font-size: 20px;
+  font-family: Lucida Handwriting, cursive;		
+}
+.lycée {
+	margin-top: -15px;
+	margin-left: 25px;
+}
+.spé1 {
+	margin-top: -45px;
+	margin-left: 15px;
+}
+.spé2 {
+	margin-top: -25px;
+	margin-left: 15px;
+}
+.spé3 {
+	margin-top: -25px;
+	margin-left: 15px;
+}
+.université {
+	margin-top: -5px;
+	margin-left: 25px;
+}
+.bac{
+	margin-top: -45px;
+	margin-left: 15px;
+}
+.licence{
+	margin-top: -25px;
+	margin-left: 15px;
+}
+.master{
+	margin-top: -25px;
+	margin-left: 15px;
+}
+.doctorat{
+	margin-top: -25px;
+	margin-left: 15px;
+}
+.post-doctorat{
+    margin-top: -25px;
+	margin-left: 15px;
+}
+.défauts {
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.h711 {
+	margin-top: -50px;
+	margin-left: 15px;
+}
+.qualités {
+	margin-top: 50px;
+	margin-left: 25px;
+}
+.h712{
+	margin-top: -50px;
+	margin-left: 15px;
+}
+h6 {
+  color: #400305;
+  font-size: 30px;
+  font-family: Lucida Handwriting, cursive;		
+}
+h7 {
+  color: #400305;
+  font-size: 20px;
+  font-family: Lucida Handwriting, cursive;		
+}
+h8 {
+  color: #400305;
+  font-size: 25px;
+  font-family: Lucida Handwriting, cursive;		
+}
+.pk{
+	margin-left: 15px;
+}
+.difficulté{
+	margin-top: 50px;
+	margin-left: 15px;
+}
+.aide{
+	margin-top: 50px;
+	margin-left: 15px;
+}
