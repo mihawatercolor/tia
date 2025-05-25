@@ -329,7 +329,7 @@ td {
 }
 
 .page-tableau td img {
-  width: 325px; /* ou ajuste à ta convenance */
+  width: 325px; 
   height: auto;
   margin: 10px 0;
   border: 3px solid #e34b46;
