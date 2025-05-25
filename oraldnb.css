@@ -299,7 +299,7 @@ h7 {
   font-size: 20px;
   font-family: Lucida Handwriting, cursive;		
 }
-h8 {
+h8{
   color: #400305;
   font-size: 25px;
   font-family: Lucida Handwriting, cursive;		
@@ -314,4 +314,16 @@ h8 {
 .aide{
 	margin-top: 50px;
 	margin-left: 15px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: top;
+  text-align: center;
+  padding: 15px;
 }
