@@ -327,3 +327,11 @@ td {
   text-align: center;
   padding: 15px;
 }
+
+.page-tableau td img {
+  width: 325px; /* ou ajuste à ta convenance */
+  height: auto;
+  margin: 10px 0;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+}
