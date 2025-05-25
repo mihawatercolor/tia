@@ -5,6 +5,27 @@ body, html {
 body {
   background-color: #daebeb;
 }
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: top;
+  text-align: center;
+  padding: 15px;
+}
+
+.page-tableau td img {
+  width: 325px;
+  height: auto;
+  margin: 10px 0;
+  border: 3px solid #e34b46;
+  border-radius: 15px;
+}
+
 .navbar {
   width: 100%;
   margin: 0;
@@ -316,22 +337,4 @@ h8{
 	margin-left: 15px;
 }
 
-table {
-  width: 100%;
-  table-layout: fixed;
-  border-collapse: collapse;
-}
 
-td {
-  vertical-align: top;
-  text-align: center;
-  padding: 15px;
-}
-
-.page-tableau td img {
-  width: 325px; 
-  height: auto;
-  margin: 10px 0;
-  border: 3px solid #e34b46;
-  border-radius: 15px;
-}
